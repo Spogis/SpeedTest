@@ -9,9 +9,9 @@ from datetime import datetime
 speedtester = speedtest.Speedtest()
 
 SleepTime = 10 #Minutes 
-TotalTime = 120 #Minutes
+TotalTime = 96 #Hours
 
-NumberOfData = int(TotalTime/SleepTime)
+NumberOfData = int(TotalTime*60/SleepTime)
 
 # Start by opening the spreadsheet and selecting the main sheet
 workbook = load_workbook(filename="SpeedTestData.xlsx")
