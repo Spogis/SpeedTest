@@ -9,7 +9,7 @@ from datetime import datetime
 speedtester = speedtest.Speedtest()
 
 SleepTime = 10 #Minutes 
-TotalTime = 96 #Hours
+TotalTime = 10 #Hours
 
 NumberOfData = int(TotalTime*60/SleepTime)
 
